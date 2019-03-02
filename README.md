@@ -1,3 +1,3 @@
 # Word_Split_Research
 
-The project's goal is to determine which genre does a piece of news belong to, e.g. economic, military, entertainment with the usage of word2vec in machine learning.
+The project's goal is to determine which genre does a piece of news belong to, economic or games. We use 'data.csv', which contains both ten thousand pieces of news in economic and games, to train data and use 'stopwords1.csv' to eliminate daily irrelevant words like 'do', 'some', 'which' to avoid its influence on the training. When a user provide us with a piece of news, we can determine if it belongs to economic, games or neither.
